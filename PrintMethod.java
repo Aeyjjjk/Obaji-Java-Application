@@ -17,7 +17,7 @@ public class PrintMethod{
 	//character in'$,%,&' while string is in "Name"
 	
 			boolean isJavaFun = true;
-			System.out.printf("is Java fun? %b",isJavaFun);
+			System.out.printf("is Java fun? %b",isJavaFun); // git staus >> git add -A >> git commint -m "name of the file" >> git push // moves to ur github
 			
 	}
 }
