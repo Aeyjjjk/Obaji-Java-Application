@@ -5,7 +5,7 @@ public class Assume {
 		int x = 2;
 		int y = 3;
 		// chapter 2
-		//2.10 a,b
+		//2.10 a,b,c,d
 		System.out.printf("x = %d%n",x);
 		System.out.printf("Value of %d + %d is %d%n",x,x,(x+x));
 		System.out.printf("y =");

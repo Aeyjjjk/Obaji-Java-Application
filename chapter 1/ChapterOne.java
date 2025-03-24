@@ -31,8 +31,15 @@
 //1.7   complication phases of java program
 //a= Complication and Execution Phase
 
-//1.8
-//
+//1.8   applying object-oriented to a wristwatch
+//Object: the physical wristwatch itself. Attribute(state): time,battery life,strap material,color,size. Behaviors(method):
+//display time,set alarm,start stopwatch,change date. Class:
+//Inheritane:a smartwatch class inherits from watch, but adds new features like step tracking and notification. an alarmclock
+// class inherit from clock and adds alarm features. Modeling:designers create digital blueprints to design a watch before manufaturing.
+//Message: the users presses a button and the watch respond and change time
+//Encapsulation: the internal or interior workings of the watch is hidden from the users, they only access the buttons
+//Interface: the display and the buttons helps the user interact with the watch
+//Information hiding: the producers dont show how timekeeping works, only providing an interface for setting the time
 
 
 //1.9  carbbon footprint calculator
