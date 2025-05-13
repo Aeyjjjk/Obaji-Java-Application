@@ -6,7 +6,7 @@ public class SimpleApp {
         String name = JOptionPane.showInputDialog("Enter your name:");
 
         // Format the message
-        String message = String.format("Hello, %s! Welcome to the Java App!", name);
+        String message = String.format("Hello, %s! Welcome to the Java App!", name,', do enjoy it.');
 
         // Display in a GUI window
         JFrame frame = new JFrame("Welcome App");

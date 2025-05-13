@@ -7,10 +7,15 @@ public class TypeCasting{
 		
 		
 		//narrowing 
-		char alpha = '?';
+		char alpha = '2';
 		
-		int asciiCode = alpha;
-		System.out.printf("The ASCIICODE for ? is %d%n",asciiCode);
+		byte asciiCode1 = (byte)alpha;
+		int asciiCode2 = alpha;
+		long asciiCode3 = (long)alpha;
+		System.out.printf("The ASCIICODE1 for %c is %d%n",alpha,asciiCode1);
+		System.out.printf("The ASCIICODE2 for %c is %d%n",alpha,asciiCode2);
+		System.out.printf("The ASCIICODE3 for %c is %d%n",alpha,asciiCode3);
+		System.out.println(alpha);
 		
 		double height = 5.8;
 		short myHeight = (short)height;
