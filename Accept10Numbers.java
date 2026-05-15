@@ -6,7 +6,7 @@ public class Accept10Numbers { public static void main(String[] args) {
 		int sum6to9 = 0;
 		int sum4to10 = 0;
 		int differnce;
-	
+	 
     for (int i = 0; i < 10; i++) {
 		System.out.printf("Enter num%d: ",i);
         int num = input.nextInt();
